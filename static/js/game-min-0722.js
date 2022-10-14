@@ -18002,12 +18002,12 @@ __extends = this.__extends || function(c, e) {
             var a = RES.getRes("stay_json"),
                 e = RES.getRes("stay_png");
             this.standmc = new egret.MovieClip(a, e);
-            this.standmc.setInterval(20);
+            this.standmc.setInterval(200);
             this.standmc.gotoAndPlay("stay");
             a = RES.getRes("weizhu_json");
             e = RES.getRes("weizhu_png");
             this.weizhumc = new egret.MovieClip(a, e);
-            this.weizhumc.setInterval(20);
+            this.weizhumc.setInterval(200);
             this.weizhumc.gotoAndPlay("weizhu");
             this.anchorX = 0.5;
             this.anchorY = 1;
